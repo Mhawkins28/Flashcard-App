@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/bckgrd-sunrise.jpg');
+  }
+
+  #introSect {
+    text-align: center;
+    color:rgb(12, 0, 36, 0.969);
+    background-color: #ad9db8af;
+    padding: 30px;
+    border-radius: 6px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    box-shadow: 3px 3px 8px 2px rgb(21, 1, 1); 
+  }
+
+  ul {
+    text-align: left;
+    list-style-type: square
+  }
+  
+  h2 {
+    border-bottom: thick double rgb(14, 13, 38);
+    padding-bottom: 15px;
+  }
+  
+  #introText {
+    width: 100%;
+    margin: auto;
+    font-size: 22px;
+  }
+  
+  #startBtn {
+    padding: 12px 50px;
+    width: 150px;
+    border-radius: 2px;
+    background-color: transparent;
+    color: rgb(12, 0, 36, 0.969);
+    font-size: 16px;
+    border: 2px solid rgba(12, 0, 36, 0.969);
+    box-shadow: 2px 2px 7px 1px rgb(21, 1, 1);
+    text-decoration: none;
+  }
+  
+  #startBtn:hover {
+    cursor: pointer;
+    background-color: rgba(193, 177, 225, 0.969);
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition:all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #introSect {
+      width: 300px;
+      padding: -30px;
+    }
+  }

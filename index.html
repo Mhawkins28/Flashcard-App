@@ -1,0 +1,68 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FLASHCARDS</title>
+</head>
+
+<body onload="getRandomTerm()">
+    <header>
+        <div class = "head">
+            <div id="header">
+                <h1>BAR EXAM FLASHCARDS</h1>
+            <div class = 'menu'>
+                <a class="shuffleBtn" href="index.html"><i class="fa fa-bars"></i>Reshuffle All</a>
+                <a class="restartBtn" href="start.html"><i class="fa fa-bars"></i>Main Page</a>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <section id='cards'>
+        <div class ='flashcard'>
+            <img class="cardImage" src="./images/pic4.jpg" alt="card 1" onclick="switchText()">
+                <h1 class="cardQuestion">Question</h1>
+        </div>
+    </section>
+
+    <container id="gotIt"> 
+        <div class="response">
+            <h2>How did you do?</h2> 
+                <button id="correct">CORRECT</button>
+                <button id="incorrect">INCORRECT</button>
+                <button id="nextBtn">SKIP</button>
+        </div>
+    </container>
+
+    <container id="stats"> 
+        <table class="count">
+            <tr>
+                <th id="corLabel">Correct</th>
+                <th id="incLabel">Incorrect</th>
+            </tr>
+            <tr>
+                <th id="corCount">0</th>
+                <th id="incCount">0</th>
+            </tr>
+        </table>
+    </container>
+
+    <container>
+        <div id="endModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <br></br>
+            <h2>Congrats! You are now a bit closer to your goal!</h2>
+            <h2 id="call"></h2>
+                <br></br>
+            <a class="endButton" href="index.html">RESHUFFLE</a>
+            <a class="endButton" href="start.html">MAIN PAGE</a>
+            <br></br>
+            </div>
+        </div>
+    </container>   
+
+<script src="./app.js"></script>   
+</body> 
