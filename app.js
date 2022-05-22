@@ -96,8 +96,12 @@ modalClose.onclick = function() {
     endModal.style.display = "none";
 };
 
-window.onclick = function(e) {
-    if (e.target == endModal) {
-      endModal.style.display = "none";
-    }
-};
+
+
+//keepng this so I can re-introduce it when I add more functioanllity to this app. 
+
+// window.onclick = function(e) {
+//     if (e.target == endModal) {
+//       endModal.style.display = "none";
+//     }
+// }; 
