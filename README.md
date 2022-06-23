@@ -5,7 +5,7 @@
 
 Live demo -- https://mhawkins28.github.io/Flashcard-App/start.html
 
-This is a frot-end web application developed as my first personal project while studying at General Assembly. 
+This is a front-end web application developed as my first personal project while studying at General Assembly. 
 
 This is a flashcard application to assist people with learning and memorizing concepts of a subject, or a set of subjects. In this instance, the app will assist people in learning subjects in law for the NY Bar Exam. This app is designed for the user to flip through cards that are presented on the screen, marking whether the user gets the answer correct or incorrect. 
 
