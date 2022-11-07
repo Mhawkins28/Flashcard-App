@@ -77,7 +77,7 @@ function hideCorrect(){
 function openModal(){
     if(data.length <= 0){
         endModal.style.display = "block"
-        call.innerHTML = `You answered ${correct.innerHTML} cards correctly and marked ${incorrect.innerHTML} cards as incorrect. Would you like to...`;
+        call.innerHTML = `You answered all (${correct.innerHTML}) cards correctly and originally marked ${incorrect.innerHTML} cards as incorrect. Would you like to...`;
         correctBtn.disabled = true;
         incorrectBtn.disabled = true;
         }
