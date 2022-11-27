@@ -35,7 +35,7 @@ let data = Object.entries(cardData);
 
 //--adding functionality to the correct button--creates an index of false so the 'correct' button can change it to true
 for(const card of data){ 
-     card[2]= false;
+    card[2]= false;
 };
 
 //function that populates the question/term on the card randomly. on HTML, it is set to onload.
