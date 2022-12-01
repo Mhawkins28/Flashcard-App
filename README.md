@@ -26,7 +26,7 @@ This is a flashcard application to assist people with learning and memorizing co
 * Front-end: HTML, CSS, Vanilla JavaScript
 
 
-## **Unsolved Problems:**
+## **Future Features:**
 
 I would like to revisit this app and...
 
